@@ -51,6 +51,9 @@ header {
   color: #DCDDD8;
   font-size: 1.2em;
 }
+.linkbar ul li a:hover {
+  color: #A3B1B2;
+}
 
 /* Content */
 

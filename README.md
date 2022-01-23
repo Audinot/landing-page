@@ -3,7 +3,7 @@
 
 *Project start date: 01.22.2022*
 
-[live demo](audinot.github.io/landing-page)
+[live demo](https://audinot.github.io/landing-page)
 
 This is the TOP Landing Page project, except I have replaced the colours with
 my own palette to test them out. I'm using these colours in another project and
