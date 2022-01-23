@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* The basics */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #DCDDD8;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+p {
+  font-family: 'Ubuntu Mono', monospace;
+}
+
+/* Top bar with nav */
+header {
+  display: flex;
+  background-color: #19173C;
+  height: 64px;
+  align-items: center;
+}
+
+.logo {
+  color: #EE9F38;
+  margin-left: 10px;
+}
+.logo h4 {
+  font-family: 'Major Mono Display', monospace;
+  font-size: 32px;;
+}
+
+.linkbar {
+  margin-left: auto;
+}
+.linkbar ul {
+  list-style: none;
+  display: flex;
+  gap: 32px;
+  margin-right: 10px;
+}
+.linkbar ul li a {
+  text-decoration: none;
+  font-family: 'Ubuntu Mono', monospace;
+  color: #DCDDD8;
+  font-size: 1.2em;
+}
+
+/* Content */
+
+/* Image row */
+
+/* Call to action card */
+
+/* Footer */
+
+footer {
+  background-color: #19173C;
+  color: #DCDDD8;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
