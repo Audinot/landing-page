@@ -9,13 +9,13 @@ This is the TOP Landing Page project, except I have replaced the colours with
 my own palette to test them out. I'm using these colours in another project and
 thought they looked pretty.
 
-*Navy:* #19173C
-*Light blue:* #A3B1B2
-*Grey:* #3B4658
-*Off white:* #DCDDD8
+* *Navy:* #19173C
+* *Light blue:* #A3B1B2
+* *Grey:* #3B4658
+* *Off white:* #DCDDD8
 
 BONUS!
-*Orange:* #EE9F38
+* *Orange:* #EE9F38
 
 ### Achievements
 
