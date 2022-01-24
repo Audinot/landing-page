@@ -5,17 +5,10 @@
 
 [live demo](https://audinot.github.io/landing-page)
 
-This is the TOP Landing Page project, except I have replaced the colours with
-my own palette to test them out. I'm using these colours in another project and
-thought they looked pretty.
-
-* *Navy:* #19173C
-* *Light blue:* #A3B1B2
-* *Grey:* #3B4658
-* *Off white:* #DCDDD8
-
-BONUS!
-* *Orange:* #EE9F38
+This is the TOP landing page project, recreated as faithfully as possible
+based on their provided design. I tried to stay as close as possible to the
+design to practice building things from a given design, but I changed the font
+to Gill Sans because it looked nicer to my eyes. I'm sorry, TOP.
 
 ### Achievements
 

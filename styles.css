@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 /* The basics */
 * {
@@ -7,7 +6,7 @@
 }
 
 body {
-  background-color: #DCDDD8;
+  background-color: #ddd;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -15,25 +14,27 @@ body {
 
 }
 
-p {
-  font-family: 'Ubuntu Mono', monospace;
-}
-
 /* Top bar with nav */
 header {
-  display: flex;
-  background-color: #19173C;
+  background-color: #1f2937;
   height: 64px;
+  display: flex;
   align-items: center;
+  justify-content: center;
 }
 
+.container {
+  width: 900px;
+  display: flex;
+}
 .logo {
   color: #EE9F38;
   margin-left: 10px;
+  font-family: 'Gill Sans', sans-serif;
 }
 .logo h4 {
-  font-family: 'Major Mono Display', monospace;
-  font-size: 32px;;
+  font-size: 24px;
+  color: #f9faf8;
 }
 
 .linkbar {
@@ -47,9 +48,9 @@ header {
 }
 .linkbar ul li a {
   text-decoration: none;
-  font-family: 'Ubuntu Mono', monospace;
-  color: #DCDDD8;
+  color: #f9faf8;
   font-size: 1.2em;
+  font-family: 'Gill Sans', sans-serif;
 }
 .linkbar ul li a:hover {
   color: #A3B1B2;
@@ -64,10 +65,11 @@ header {
 /* Footer */
 
 footer {
-  background-color: #19173C;
+  background-color: #1f2937;
   color: #DCDDD8;
   height: 64px;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Gill Sans', sans-serif;
 }
