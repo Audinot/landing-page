@@ -14,6 +14,9 @@ The page is not designed for mobile, **as per the project directions.** This
 is intentional. However, I have tried to make it as flexible as possible
 using Flexbox.
 
+Each piece of the page was built as a separate standalone div. In the future
+I would try to refine the content to keep the HTML smaller and neater.
+
 ### Achievements
 
 * We'll find out when the project is done.
@@ -23,7 +26,7 @@ using Flexbox.
 - [ ] Pixel art assets for testing
 - [X] Header - *the image is 400px by 200px*
 - [X] Hero content bar
-- [ ] "Random information" image bar
+- [X] "Random information" image bar
 - [ ] Inspiring quote bar
 - [ ] Call to action card
 - [X] Footer
