@@ -3,6 +3,7 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -10,11 +11,10 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 
 }
 
-/* Top bar with nav */
+/* Navigation bar */
 header {
   background-color: #1f2937;
   height: 64px;
@@ -23,14 +23,14 @@ header {
   justify-content: center;
 }
 
-.container {
+.header-container {
   width: 900px;
   display: flex;
+  flex-wrap: wrap;
 }
 .logo {
   color: #EE9F38;
   margin-left: 10px;
-  font-family: 'Gill Sans', sans-serif;
 }
 .logo h4 {
   font-size: 24px;
@@ -50,13 +50,66 @@ header {
   text-decoration: none;
   color: #f9faf8;
   font-size: 1.2em;
-  font-family: 'Gill Sans', sans-serif;
 }
 .linkbar ul li a:hover {
   color: #A3B1B2;
 }
 
-/* Content */
+/* Hero */
+.hero-container {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-wrapper {
+  width: 900px;
+  margin: 0px 32px;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  gap: 32px;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  max-width: 450px;
+  flex: 1 1 50%;
+  margin: 25px 0px;
+}
+.hero h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8;
+  margin-bottom: 10px;
+}
+.hero p {
+  font-size: 18px;
+  color: #E5E7EB;
+  margin-bottom: 10px;
+}
+.hero button {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  padding: 10px 32px;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  border-radius: 10px;
+}
+
+.hero-image {
+  width: 400px;
+  height: 200px;
+  background-color: #A3B1B2;
+  margin: 25px 0px;;
+  color: white;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
 /* Image row */
 
@@ -68,6 +121,7 @@ footer {
   background-color: #1f2937;
   color: #DCDDD8;
   height: 64px;
+  margin-top: auto;
   display: flex;
   justify-content: center;
   align-items: center;

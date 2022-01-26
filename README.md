@@ -6,9 +6,13 @@
 [live demo](https://audinot.github.io/landing-page)
 
 This is the TOP landing page project, recreated as faithfully as possible
-based on their provided design. I tried to stay as close as possible to the
-design to practice building things from a given design, but I changed the font
-to Gill Sans because it looked nicer to my eyes. I'm sorry, TOP.
+based on their provided design. Although there are many custom solutions, I
+tried to stay as close as possible to the project images to practice
+building things from a given design.
+
+The page is not designed for mobile, **as per the project directions.** This
+is intentional. However, I have tried to make it as flexible as possible
+using Flexbox.
 
 ### Achievements
 
@@ -17,8 +21,8 @@ to Gill Sans because it looked nicer to my eyes. I'm sorry, TOP.
 ### Project to-do list
 
 - [ ] Pixel art assets for testing
-- [X] Header
-- [ ] Sign Up content bar
+- [X] Header - *the image is 400px by 200px*
+- [X] Hero content bar
 - [ ] "Random information" image bar
 - [ ] Inspiring quote bar
 - [ ] Call to action card
