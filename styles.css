@@ -13,7 +13,6 @@
 }
 
 body {
-  background-color: #ddd;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -116,7 +115,6 @@ header {
   justify-content: center;
 }
 
-
 /* Picture row */
 .info {
   margin: 32px 0px;
@@ -167,8 +165,72 @@ header {
 }
 
 /* Inspiring quote */
+.inspiring {
+  background-color: var(--secondary-grey);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote {
+  width: 65vw;
+  margin: 100px 0px;
+  color: #1f2937
+}
+
+.quote p {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  margin-bottom: 1em;
+}
+.quote h4 {
+  text-align: right;
+  font-size: 1.3em;
+}
 
 /* Call to action card */
+.action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blue {
+  width: 800px;
+  background-color: #3882F6;
+  border-radius: 10px;
+  margin: 100px 10vw;
+  padding: 50px 100px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.blue-text {
+  color: white;
+}
+.blue-text h4 {
+  font-size: 1.3em;
+  margin-bottom: 0.5em;
+}
+.blue-text p {
+  font-weight: lighter;
+  margin-bottom: 0.5em;
+}
+
+.call-button {
+  white-space: nowrap;
+  background-color: #3882F6;
+  color: #fff;
+  padding: 5px 32px;
+  font-size: 18px;
+  font-weight: 700;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  margin-left: auto;
+  height: 40px;
+}
 
 /* Footer */
 footer {
