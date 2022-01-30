@@ -216,6 +216,7 @@ header {
 }
 .blue-text p {
   font-weight: lighter;
+  padding-right: 32px;
   margin-bottom: 0.5em;
 }
 
